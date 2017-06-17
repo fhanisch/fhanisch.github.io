@@ -41,3 +41,23 @@ nav {
 	font-size: 22px;
 	color: #303030;
 }
+
+figure {
+	text-align: center;
+	font-style: italic;
+	color: #ff0000;
+}
+
+code {
+	font-weight: normal;
+	font-size: 18px;
+}
+
+footer {
+	text-align: center;
+	border-radius: 1.0em 1.0em 1.0em;
+	border: 3px solid;
+	border-color: #1010f0;
+	margin: 50px;
+	padding: 10px;
+}
