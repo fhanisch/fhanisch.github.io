@@ -1,0 +1,20 @@
+body {
+		font-family: arial;
+		font-weight: bold;
+		font-size: 20px;
+		color: #2e8b57
+	}
+
+h1 {
+  color: #ffffff;
+  background-color: #4169e1;
+	text-align: center;
+	font-size: 50px;
+	border-top: 2px solid #999999;
+  border-bottom: 2px solid #999999;
+}
+
+#formel {
+	font-size: 22px;
+	color: #303030;
+}
