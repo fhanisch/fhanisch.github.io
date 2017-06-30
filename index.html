@@ -25,8 +25,9 @@
         <ol>
           <li><a href="#kap1">PT1-Glied</a></li>
           <li><a href="#kap2">RC-Glied</a></li>
-          <li><a href="#kap3">Perlin Noise</a></li>
-          <li><a href="#kap4">Konstruktion der Frustum Matrix</a></li>
+          <li><a href="#kap3">Induktionsgesetz</a></li>
+          <li><a href="#kap4">Perlin Noise</a></li>
+          <li><a href="#kap5">Konstruktion der Frustum Matrix</a></li>
         </ol>
      </nav>
     </header>
@@ -43,7 +44,17 @@
       <img src=pt1.svg>
       <h2 ID="kap2">RC-Glied</h2>
       <img src=RC.svg>
-      <h2 ID="kap3">Perlin Noise</h2>
+      <h2 ID="kap3">Induktionsgesetz</h2>
+      <p ID="formel">
+      		$$\Phi=\int\limits_{A}\vec{B}d\vec{A}=AB\cos(\omega t)$$
+
+      		$$u_{12}=N\frac{d\Phi}{dt}=-AB\omega\sin(\omega t)$$
+
+      		$$u_{ind}=-N\left(\frac{dB}{dt}A+\frac{dA}{dt}B\right)$$
+
+      		$$\vec{F}=I(\vec{l}\times\vec{B})$$
+      </p>
+      <h2 ID="kap4">Perlin Noise</h2>
       <p>Kontinuierliche und eindimensionale Zufallsfunktion.</p>
       <p ID="formel">
         \begin{equation}
@@ -58,7 +69,7 @@
            \end{equation}
          </p>
       <img src=perlin.svg>
-      <h2 ID="kap4">Konstruktion der Frustum Matrix</h2>
+      <h2 ID="kap5">Konstruktion der Frustum Matrix</h2>
       <p>Transformation der Objektkoordinaten in Eye Space Koordinaten.</p>
       <p ID="formel">
         \begin{equation}
